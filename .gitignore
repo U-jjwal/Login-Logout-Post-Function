@@ -1,0 +1,34 @@
+# Ignore environment variables
+.env
+
+# Ignore node modules
+node_modules/
+node_modules/**
+
+# Ignore logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+logs/
+*.log
+
+# Ignore database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Ignore OS and editor-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Ignore build and cache files
+dist/
+build/
+.cache/
+coverage/
+
+# Ignore uploads (if storing user images locally)
+public/images/uploads/
